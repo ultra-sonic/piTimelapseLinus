@@ -1,16 +1,1 @@
-== CentOS 7 userland ==
-
-If you want to automatically resize your / partition, just type the following (as root user):
-/usr/local/bin/rootfs-expand
-
-For wifi on the rpi3, just proceed with those steps : 
-
-curl --location https://github.com/RPi-Distro/firmware-nonfree/raw/master/brcm80211/brcm/brcmfmac43430-sdio.bin > /usr/lib/firmware/brcm/brcmfmac43430-sdio.bin
-
-curl --location https://github.com/RPi-Distro/firmware-nonfree/raw/master/brcm80211/brcm/brcmfmac43430-sdio.txt > /usr/lib/firmware/brcm/brcmfmac43430-sdio.txt
-
-systemctl reboot
-
-
-
 
